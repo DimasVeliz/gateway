@@ -34,7 +34,7 @@ public class GatewayController {
             HttpMethod method, HttpServletRequest request, HttpServletResponse response)
             throws URISyntaxException, KeyManagementException, NoSuchAlgorithmException, KeyStoreException {
         
-        service.printDogName();
+        service.pringAPIInformation();
         service.printURL(request);
         service.printQueryString(request);
         service.printHeaders(request);
