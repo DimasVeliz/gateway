@@ -1,14 +1,14 @@
 {
     "frontend": {
         "port": 3000,
-        "host": "yourwebsite.com"
+        "host": "127.0.0.1"
     },
     "apisInfo": [
         {
-            "key": "dog",
+            "key": "/api/dogs",
             "apiDetails": {
                 "host": "localhost",
-                "port": 5001,
+                "port": 8081,
                 "protocol":"http",
                 "lang": "java",
                 "proxy": {
@@ -19,10 +19,10 @@
             }
         },
         {
-            "key": "cat",
+            "key": "/api/cats",
             "apiDetails": {
                 "host": "localhost",
-                "port": 5002,
+                "port": 5020,
                 "protocol":"http",
                 "lang": "csharp",
                 "proxy": {
@@ -33,7 +33,7 @@
             }
         },
         {
-            "key": "people",
+            "key": "/api/people",
             "apiDetails": {
                 "host": "localhost",
                 "port": 5003,
